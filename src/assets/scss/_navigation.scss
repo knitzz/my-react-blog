@@ -1,0 +1,39 @@
+.site-navigation{
+    height: 65px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    color: $text-color;
+   
+    span{
+        font-size: 24px;
+        font-weight: 400;
+        margin-left: 20px;
+        align-items: center;
+        display: flex;
+    }
+
+    ul{
+        height: 100%;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        display: flex;
+        padding-inline-start: 0;
+        list-style-type: none;
+        align-items:center;
+        margin-right: 20px;
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 0 20px 0 20px; 
+            color: $text-color;
+
+            &:hover{
+            color: $text-link;
+            }
+        }
+    }
+
+   
+}
